@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23476c98-859c-4555-9c00-28557a8b4281" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UWZS6Bf7dxMWvGq96ncqyozIpv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Jobhub\resume_parser\parser_app\static\images" />
+      <recent name="C:\Users\Administrator\Desktop\Jobhub\resume_parser\parser_app\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Jobhub\resume_parser\parser_app\templates\session" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23476c98-859c-4555-9c00-28557a8b4281" name="Default Changelist" comment="" />
+      <created>1572093654647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572093654647</updated>
+      <workItem from="1575474316981" duration="3087000" />
+      <workItem from="1575634540257" duration="1133000" />
+      <workItem from="1576225388538" duration="645000" />
+      <workItem from="1576417741394" duration="16000" />
+      <workItem from="1576417788969" duration="46000" />
+      <workItem from="1576419615432" duration="1182000" />
+      <workItem from="1576548688757" duration="662000" />
+      <workItem from="1576552880376" duration="512000" />
+      <workItem from="1576758185631" duration="4078000" />
+      <workItem from="1578319730041" duration="422000" />
+      <workItem from="1579805206117" duration="50000" />
+      <workItem from="1579805281843" duration="219000" />
+      <workItem from="1579805727174" duration="352000" />
+      <workItem from="1579869458573" duration="3776000" />
+      <workItem from="1579874872675" duration="3489000" />
+      <workItem from="1580018354483" duration="165000" />
+      <workItem from="1580223085673" duration="1133000" />
+      <workItem from="1580314941752" duration="1195000" />
+      <workItem from="1580913227168" duration="1491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="279" y="26" key="#Inspections" timestamp="1579874536549">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="279" y="26" key="#Inspections/0.0.1366.732@0.0.1366.732" timestamp="1579874536549" />
+    <state x="142" y="22" width="1081" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579874604204">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="142" y="22" width="1081" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1579874604204" />
+    <state x="467" y="122" key="FileChooserDialogImpl" timestamp="1576417832729">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="467" y="122" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1576417832729" />
+    <state x="180" y="0" width="1005" height="736" key="SettingsEditor" timestamp="1579873917908">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="180" y="0" width="1005" height="736" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1579873917908" />
+    <state x="291" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1580913228357">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="291" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1580913228357" />
+  </component>
+</project>

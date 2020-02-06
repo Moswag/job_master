@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: btsnoop
+Version: 1.1.0
+Summary: Parser for btsnoop file
+Home-page: https://github.com/pypa/sampleproject
+Author: zuolongjun
+Author-email: zuolongjun@163.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pypa/sampleproject/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Keywords: btsnoop bluetooth bt
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: bitstring
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+
+# Parser for btsnoop
+
+A project that analyzes btsnoop file. 
+
+# example 1:
+Display btsnoop pakcet info
+
+>from btsnoop.btsnoop import *  
+>btsnp = btsnoop('btsnoop_hci.log')  
+>print(btsnp.parsed[0:10])  
+
+# example 2:
+Get remote / local device information in a list of dictionaries:
+
+>[{'peer_addr': '90:3A:E6:2A:08:15',  
+>  'name': 'MyLink Malibu',  
+>  'oui': 'PARROT SA,174 Quai de Jemmapes Paris  FR 75010 ',  
+>  'lmp_manufacture': 'Texas_Instruments',  
+>  'lmp_version': 'V4_0',  
+>  'lmp_subversion': 7002,  
+>  'profiles': [(<service_class_t.AdvancedAudioDistribution: 4365>, '1.2'),  
+>               (<service_class_t.Handsfree: 4382>, '1.6'),  
+>               (<service_class_t.AV_RemoteControl: 4366>, '1.4')  
+>               ]  
+>  },  
+>]  
+
+
+>btsnp = btsnoop('btsnoop_hci.log')  
+>remote_info = btsnp.get_remote_info()   
+>print(remote_info)   
+
+
+# example 3:
+Find ACL connections which are sucessful or failed due to some kind of error
+
+>btsnp = btsnoop('btsnoop_hci.log')  
+>conns = btsnp.get_acl_connections(status=8)   
+>print(conns)  
+
+----
+
+This is the README file for the project.
+
+The file should use UTF-8 encoding and can be written using
+[reStructuredText][rst] or [markdown][md use] with the appropriate [key set][md
+use]. It will be used to generate the project webpage on PyPI and will be
+displayed as the project homepage on common code-hosting services, and should be
+written for that purpose.
+
+Typical contents for this file would include an overview of the project, basic
+usage examples, etc. Generally, including the project changelog in here is not a
+good idea, although a simple “What's New” section for the most recent version
+may be appropriate.
+
+[packaging guide]: https://packaging.python.org
+[distribution tutorial]: https://packaging.python.org/en/latest/distributing.html
+[src]: svn://39.107.88.113/pytools/btsnoop
+[rst]: https://zuolongjun.top:8888
+[md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
+[md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
+
+
