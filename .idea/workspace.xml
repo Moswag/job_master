@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23476c98-859c-4555-9c00-28557a8b4281" name="Default Changelist" comment="" />
+    <list default="true" id="23476c98-859c-4555-9c00-28557a8b4281" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +20,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1UWZS6Bf7dxMWvGq96ncqyozIpv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -80,7 +91,8 @@
       <workItem from="1580018354483" duration="165000" />
       <workItem from="1580223085673" duration="1133000" />
       <workItem from="1580314941752" duration="1195000" />
-      <workItem from="1580913227168" duration="1491000" />
+      <workItem from="1580913227168" duration="2791000" />
+      <workItem from="1581575944414" duration="21000" />
     </task>
     <servers />
   </component>
@@ -104,9 +116,9 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="180" y="0" width="1005" height="736" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1579873917908" />
-    <state x="291" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1580913228357">
+    <state x="291" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1581575958837">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="291" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1580913228357" />
+    <state x="291" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1581575958837" />
   </component>
 </project>
