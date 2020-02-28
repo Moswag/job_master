@@ -25,7 +25,7 @@ cupshelpers==1.0
 cymem==2.0.3
 decorator==4.2.1
 defusedxml==0.6.0
-Django==3.0
+Django==3.0.3
 django-allauth==0.41.0
 django-crispy-forms==1.8.1
 django-rest-auth==0.9.5
