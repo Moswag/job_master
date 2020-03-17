@@ -9,8 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static  'images/logo.png'%}">
-    <title>Job Hub</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static  'images/cbz.png'%}">
+    <title>CBZ Job Hub</title>
     <!-- Custom CSS -->
     <link href="{% static  'dist/css/style.min.css'%}" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -42,7 +42,7 @@
             <div class="auth-box bg-dark border-top border-secondary">
                 <div>
                     <div class="text-center p-t-20 p-b-20">
-                        <span class="db"><img src="{% static  'images/logo.png'%}" alt="logo" /></span>
+                        <span class="db"><img src="{% static  'images/cbz.png'%}"  width="140" height="140" alt="logo" /></span>
                     </div>
                     <!-- Form -->
                     <form class="form-horizontal m-t-20" action="/signup" method="post">
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text bg-success text-white" id="basic-addon1"><i class="ti-user"></i></span>
+                                        <span class="input-group-text bg-success text-white" id="basic-addon1"><i class="ti-agenda"></i></span>
                                     </div>
                                     <input type="text" name="last_name" class="form-control form-control-lg" placeholder="Surname" aria-label="Surname" aria-describedby="basic-addon1" required>
                                 </div>
@@ -70,15 +70,15 @@
                                 </div>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text bg-danger text-white" id="basic-addon1"><i class="ti-email"></i></span>
+                                        <span class="input-group-text bg-danger text-white" id="basic-addon1"><i class="ti-calendar"></i></span>
                                     </div>
                                     <input type="date" name="dob" class="form-control form-control-lg" placeholder="DOB" aria-label="Username" aria-describedby="basic-addon1" required>
                                 </div>
                                  <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text bg-danger text-white" id="basic-addon1"><i class="ti-email"></i></span>
+                                        <span class="input-group-text bg-danger text-white" id="basic-addon1"><i class="ti-arrow-top-left"></i></span>
                                     </div>
-                                     <select type="date" name="sex" class="form-control form-control-lg" placeholder="DOB" aria-label="Username" aria-describedby="basic-addon1" required>
+                                     <select type="date" name="sex" class="form-control form-control-lg"  aria-label="Username" aria-describedby="basic-addon1" required>
                                          <option>Male</option>
                                          <option>Female</option>
                                      </select>

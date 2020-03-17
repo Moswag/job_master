@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+setup.cfg
+setup.py
+hci_protocol/__init__.py
+hci_protocol/hci_functions.py
+hci_protocol/hci_protocol.py
+hci_protocol/hci_sniffer.py
+hci_protocol/tmp.py
+hci_protocol.egg-info/PKG-INFO
+hci_protocol.egg-info/SOURCES.txt
+hci_protocol.egg-info/dependency_links.txt
+hci_protocol.egg-info/requires.txt
+hci_protocol.egg-info/top_level.txt

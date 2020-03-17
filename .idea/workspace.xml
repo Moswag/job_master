@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23476c98-859c-4555-9c00-28557a8b4281" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/resume_parser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resume_parser.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/templates/layouts/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/templates/layouts/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/templates/layouts/base2.html" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/templates/layouts/base2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/templates/session/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/templates/session/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/templates/session/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/templates/session/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume_parser/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/resume_parser/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +48,43 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/parser_app/static/images" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\Jobhub\resume_parser\parser_app\static\images" />
-      <recent name="C:\Users\Administrator\Desktop\Jobhub\resume_parser\parser_app\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\Jobhub\resume_parser\parser_app\templates\session" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/parser_app/static/images" />
+      <recent name="C:\Users\Administrator\Desktop\Jobhub\resume_parser\parser_app\static\images" />
+      <recent name="C:\Users\Administrator\Desktop\Jobhub\resume_parser\parser_app\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="resume_parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venvx/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -93,6 +128,11 @@
       <workItem from="1580314941752" duration="1195000" />
       <workItem from="1580913227168" duration="2791000" />
       <workItem from="1581575944414" duration="21000" />
+      <workItem from="1583738404615" duration="1476000" />
+      <workItem from="1583740361015" duration="3229000" />
+      <workItem from="1584217096433" duration="1296000" />
+      <workItem from="1584351930705" duration="448000" />
+      <workItem from="1584390176664" duration="1244000" />
     </task>
     <servers />
   </component>
@@ -104,21 +144,24 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="279" y="26" key="#Inspections/0.0.1366.732@0.0.1366.732" timestamp="1579874536549" />
-    <state x="142" y="22" width="1081" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579874604204">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="262" y="59" width="1081" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583739941698">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="142" y="22" width="1081" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1579874604204" />
+    <state x="262" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583739941698" />
     <state x="467" y="122" key="FileChooserDialogImpl" timestamp="1576417832729">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="467" y="122" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1576417832729" />
-    <state x="180" y="0" width="1005" height="736" key="SettingsEditor" timestamp="1579873917908">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="314" y="27" width="1362" height="1053" key="SettingsEditor" timestamp="1583738923008">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="180" y="0" width="1005" height="736" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1579873917908" />
-    <state x="291" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1581575958837">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="314" y="27" width="1362" height="1053" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583738923008" />
+    <state x="464" y="411" key="com.intellij.ide.util.TipDialog" timestamp="1584390197495">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="291" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1581575958837" />
+    <state x="464" y="411" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584390197495" />
   </component>
 </project>

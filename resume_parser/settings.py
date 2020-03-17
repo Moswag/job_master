@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'resume_parser.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'hr',
         'USER': 'root',
         'PASSWORD': 'notes',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '3306',
     }
 }
 

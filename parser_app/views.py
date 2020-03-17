@@ -41,7 +41,7 @@ def login(request):
             request.session['access'] = user.access
             request.session['email'] = user.email
             messages.add_message(request,messages.INFO,'Welcome to job hub '+ user.first_name+' '+user.last_name)
-            if (user.access=='Admin'):
+            if user.access== 'Admin':
                 return redirect(viewJobs)
             else:
                 return redirect(viewApplicantJobs)
