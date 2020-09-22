@@ -1,0 +1,29 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+                <div class="row">
+                    {% if messages %}
+                            <div class="span12">
+                                {% for message in messages %}
+                                    <div class="alert alert-success">
+                                        {{ message|safe }}
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+
+
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">CV Model Training Chart</h5>
+                                 <div id="real-time" style="height:400px;"></div>
+                                <p>Time between updates:
+                                    <input id="updateInterval" type="text" value="" style="text-align: right; width:5em"> milliseconds
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+{% endblock %}

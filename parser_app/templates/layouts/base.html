@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="{% static  'assets/extra-libs/multicheck/multicheck.css' %}">
     <link href="{% static  'assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css' %}" rel="stylesheet">
     <link href="{% static  'dist/css/style.min.css' %}" rel="stylesheet">
+    <link href="{% static  'assets/libs/flot/css/float-chart.css' %}" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -128,9 +129,7 @@
                         <div class="dropdown-menu dropdown-menu-right user-dd animated">
 
                             <a class="dropdown-item" href="javascript:void(0)">
-                                {{request.session.name}}</a>
-                            <a class="dropdown-item" href="javascript:void(0)"><i class="ti-settings m-r-5 m-l-5"></i>
-                                Change Password</a>
+                                {{request.session.name}}  {{request.session.surname}}</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="/logout"><i
                                     class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
@@ -158,7 +157,7 @@
             <nav class="sidebar-nav">
                 <ul id="sidebarnav" class="p-t-30">
                     <li class="sidebar-item"><a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                                href="#" aria-expanded="false"><i
+                                                href="/dashboard" aria-expanded="false"><i
                             class="mdi mdi-view-dashboard"></i><span class="hide-menu">Home</span></a></li>
                     <li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark"
                                                 href="javascript:void(0)" aria-expanded="false"><i
@@ -263,6 +262,24 @@
 <script src="{% static  'assets/extra-libs/multicheck/datatable-checkbox-init.js' %}"></script>
 <script src="{% static  'assets/extra-libs/multicheck/jquery.multicheck.js' %}"></script>
 <script src="{% static  'assets/extra-libs/DataTables/datatables.min.js' %}"></script>
+
+
+    <!-- this page js -->
+    <script src="{% static  'assets/libs/chart/matrix.interface.js' %}"></script>
+    <script src="{% static  'assets/libs/chart/excanvas.min.js' %}"></script>
+    <script src="{% static  'assets/libs/flot/jquery.flot.js' %}"></script>
+    <script src="{% static  'assets/libs/flot/jquery.flot.pie.js' %}"></script>
+    <script src="{% static  'assets/libs/flot/jquery.flot.time.js' %}"></script>
+    <script src="{% static  'assets/libs/flot/jquery.flot.stack.js' %}"></script>
+    <script src="{% static  'assets/libs/flot/jquery.flot.crosshair.js' %}"></script>
+    <script src="{% static  'assets/libs/chart/jquery.peity.min.js' %}"></script>
+    <script src="{% static  'assets/libs/chart/matrix.charts.js' %}"></script>
+    <script src="{% static  'assets/libs/chart/jquery.flot.pie.min.js' %}"></script>
+    <script src="{% static  'assets/libs/flot.tooltip/js/jquery.flot.tooltip.min.js' %}"></script>
+    <script src="{% static  'assets/libs/chart/turning-series.js' %}"></script>
+    <script src="{% static  'dist/js/pages/chart/chart-page-init.js' %}"></script>
+
+
 <script>
         /****************************************
          *       Basic Table                   *

@@ -63,6 +63,8 @@ def index(request):
 def register(request):
     return render(request, 'session/register.html')
 
+def dashboard(request):
+    return render(request, 'dashboard/dashboard.html')
 
 def apply(request, job_id):
     job = Job.objects.filter(pk=job_id)
@@ -151,6 +153,11 @@ def viewAdmins(request):
     return render(request,'admin/view_admins.html',context)
 
 
+def deleteAdmin(request, id):
+    User.objects.filter(id=id).delete()
+    messages.add_message(request, messages.INFO, 'Admin successfully deleted')
+    return redirect(viewAdmins)
+
 def saveJob(request):
     if request.method == 'POST':
             job = Job.objects.create(
@@ -163,6 +170,11 @@ def saveJob(request):
             job.save()
             messages.add_message(request, messages.INFO, "Job successfully added")
             return redirect(viewJobs)
+
+def deleteJob(request, id):
+    Job.objects.filter(id=id).delete()
+    messages.add_message(request, messages.INFO, 'Job successfully deleted')
+    return redirect(viewJobs)
 
 def homepage(request):
     if request.method == 'POST':

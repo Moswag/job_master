@@ -36,8 +36,7 @@
                                                 <td>{{ job.due_date }}</td>
                                                 <td>{{ job.added_by }}</td>
                                                 <td>
-                                                    <a href="" class="btn btn-primary">Edit</a>
-                                                    <a href=""  class="btn btn-danger">Delete</a>
+                                                     <a  href="{% url 'delete_job' id=job.pk %}" class="btn btn-danger">Delete</a>
                                                 </td>
                                             </tr>
                                         {% endfor %}

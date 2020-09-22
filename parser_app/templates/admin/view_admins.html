@@ -29,6 +29,7 @@
                                         </thead>
                                         <tbody>
                                         {% for admin in admins %}
+                                         {% ifnotequal admin.id request.session.id %}
                                             <tr>
                                                 <td>{{ admin.first_name }}</td>
                                                 <td>{{ admin.last_name }}</td>
@@ -36,10 +37,10 @@
                                                 <td>{{ admin.sex }}</td>
                                                 <td>{{ admin.dob }}</td>
                                                 <td>
-                                                    <a href="" class="btn btn-primary">Edit</a>
-                                                    <a href=""  class="btn btn-danger">Delete</a>
+                                                    <a  href="{% url 'delete_admin' id=admin.pk %}" class="btn btn-danger">Delete</a>
                                                 </td>
                                             </tr>
+                                         {% endifnotequal %}
                                         {% endfor %}
 
                                         </tbody>

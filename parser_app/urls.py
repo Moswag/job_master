@@ -32,7 +32,7 @@ urlpatterns = [
     path('logout', views.logout_view, name='logout'),
     path('register/', views.register, name='register'),
     path('signup', views.saveUser, name='signup'),
-
+    path('dashboard', views.dashboard, name='dashboard'),
 
 
     # admin
@@ -40,10 +40,12 @@ urlpatterns = [
     path('add_admin/', views.addAdmin, name='add_admin'),
     path('save_admin/', views.saveAdmin, name='save_admin'),
     path('view_admins/', views.viewAdmins, name='view_admins'),
+    path('delete_admin/<str:id>/', views.deleteAdmin, name='delete_admin'),
 
     path('add_job/', views.addJob, name='add_job'),
     path('save_job/', views.saveJob, name='save_job'),
     path('view_jobs/', views.viewJobs, name='view_jobs'),
+    path('delete_job/<str:id>/', views.deleteJob, name='delete_job'),
     path('view_applications/<str:job_id>/', views.viewApplications, name='view_applications'),
     path('view_application_jobs/', views.viewApplicationJobs, name='view_application_jobs'),
 

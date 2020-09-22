@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23476c98-859c-4555-9c00-28557a8b4281" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/templates/admin/add_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/templates/admin/add_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/templates/admin/view_admins.html" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/templates/admin/view_admins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/templates/admin/view_jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/templates/admin/view_jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/templates/layouts/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/templates/layouts/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,7 +34,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UWZS6Bf7dxMWvGq96ncqyozIpv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,7 +47,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parser_app/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../django/FacialRecognitionForPolice" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -156,7 +163,13 @@
       <workItem from="1586797614339" duration="1534000" />
       <workItem from="1586799954437" duration="634000" />
       <workItem from="1587135959596" duration="1489000" />
-      <workItem from="1587713114276" duration="961000" />
+      <workItem from="1587713114276" duration="1605000" />
+      <workItem from="1588510336821" duration="37000" />
+      <workItem from="1589373502784" duration="693000" />
+      <workItem from="1593952174540" duration="60000" />
+      <workItem from="1593952801278" duration="3000" />
+      <workItem from="1593953068878" duration="24000" />
+      <workItem from="1600776883703" duration="3656000" />
     </task>
     <servers />
   </component>
@@ -164,15 +177,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="279" y="26" key="#Inspections" timestamp="1579874536549">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="778" y="273" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593953090093">
+      <screen x="0" y="27" width="1920" height="977" />
     </state>
-    <state x="279" y="26" key="#Inspections/0.0.1366.732@0.0.1366.732" timestamp="1579874536549" />
-    <state x="262" y="59" width="1081" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583739941698">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="142" y="22" width="1081" height="695" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1579874604204" />
-    <state x="262" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583739941698" />
+    <state x="778" y="273" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.977@0.27.1920.977" timestamp="1593953090093" />
     <state width="1354" height="250" key="GridCell.Tab.0.bottom" timestamp="1587136584552">
       <screen x="0" y="27" width="1920" height="977" />
     </state>
@@ -189,17 +197,10 @@
       <screen x="0" y="27" width="1920" height="977" />
     </state>
     <state width="1354" height="250" key="GridCell.Tab.0.right/0.27.1920.977@0.27.1920.977" timestamp="1587136584551" />
-    <state x="314" y="27" width="1362" height="1053" key="SettingsEditor" timestamp="1583738923008">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="180" y="0" width="1005" height="736" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1579873917908" />
-    <state x="314" y="27" width="1362" height="1053" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583738923008" />
-    <state x="409" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1587713132827">
+    <state x="409" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1593953069400">
       <screen x="0" y="27" width="1920" height="977" />
     </state>
-    <state x="291" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1581575958837" />
-    <state x="409" y="383" key="com.intellij.ide.util.TipDialog/0.27.1920.977@0.27.1920.977" timestamp="1587713132827" />
-    <state x="464" y="411" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584898793879" />
+    <state x="409" y="383" key="com.intellij.ide.util.TipDialog/0.27.1920.977@0.27.1920.977" timestamp="1593953069400" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/job_master$test.coverage" NAME="test Coverage Results" MODIFIED="1587136584515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resume_parser" />
