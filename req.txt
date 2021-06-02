@@ -116,7 +116,7 @@ tox==3.14.2
 tqdm==4.40.2
 twine==3.1.1
 typed-ast==1.4.0
-urllib3==1.25.7
+urllib3==1.26.5
 urlscan==0.9.2
 urwid==2.0.1
 virtualenv==16.7.8
