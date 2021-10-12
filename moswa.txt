@@ -114,7 +114,7 @@ notebook==6.0.3
 numpy==1.17.2
 oauthlib==3.1.0
 olefile==0.46
-opencv-python==4.1.1.26
+opencv-python==4.2.0.32
 openpyxl==3.0.0
 openshot-qt==2.4.3
 packaging==20.3
